@@ -19,8 +19,8 @@ from py_clob_client.order_builder.constants import BUY, SELL
 
 load_dotenv()
 
-PRIVATE_KEY = os.getenv("0xec6ea5d488d41d43c1393b001effc3199d75d0f956009e1f88b543154ed8bd85")
-FUNDER_ADDRESS = os.getenv("0x6c16105561ca1c70a70554ed7c6d3bcb1b531f93")
+PRIVATE_KEY = os.getenv("POLYMARKET_PRIVATE_KEY")
+FUNDER_ADDRESS = os.getenv("POLYMARKET_FUNDER_ADDRESS")
 
 # 0 = EOA wallet (MetaMask, hardware wallet)
 # 1 = Email wallet (If account created with email)
