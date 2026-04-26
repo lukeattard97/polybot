@@ -25,7 +25,7 @@ FUNDER_ADDRESS = os.getenv("POLYMARKET_FUNDER_ADDRESS")
 # 0 = EOA wallet (MetaMask, hardware wallet)
 # 1 = Email wallet (If account created with email)
 # 2 = Browser wallet proxy
-SIGNATURE_TYPE = 1
+SIGNATURE_TYPE = 0
 
 TRADE_SIZE = 0.5  # 50% of available balance per trade
 MARKETS_LIMIT = 100
